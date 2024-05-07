@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.select {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.select p {
+    padding: 10px;
+
+}
+
+.global {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.sign button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.select p:hover {
+    border-radius: 30px;
+    background-color: #F0F0F0;
+    border: 1px solid white;
+
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.head {
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.select--1 a {
+    padding: 10px;
+    gap: 10PX;
+    font-weight: 500;
+    font-size: 17px;
+
+}
+
+.select--1 a:hover {
+    border-bottom: 2px solid black;
+
+
+}
+
+.search {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+
+}
+
+.search__bar {
+    border: 1px solid black;
+    width: 35%;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.search__button {
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #84E9BD;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.search-nav {
+    border: none;
+    width: 60%;
+    background-color: transparent;
+}
+
+.search-nav:focus {
+    outline: none;
+}
+
+.sales__image,
+.sales__image1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.sales__image img,
+.sales__image1 img {
+    border-radius: 20px;
+    width: 75%;
+    height: 50%;
+}
+.title{
+    margin-bottom: 1%;
+}
+
+.container,.container__1,.container__2,.container__3,.container__4{
+    margin-top: 3%;
+    margin-left: 13%;
+}
+
+.catagory {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 12%;
+    margin-top: 2%;
+    overflow-x: auto;
+   
+}
+.hotels img{
+    border-radius: 20px;
+    padding: 10px;
+}
+.trip{
+    color: white;
+    font-size: 28px;
+    font-weight:bolder;
+    position: relative;
+    bottom: 60px;
+    left: 30px;
+}
+
+
+.place,.asian{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12%;
+    margin-top: 2%;
+    overflow-x: auto;
+
+}
+.chennai img{
+    border-radius: 20px;
+    padding: 10px;
+}
+.rent img{
+    padding: 10px;
+    border-radius: 30px;
+    width: 250px;
+}
+.room{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12%;
+    margin-top: 2%;
+    overflow-x: auto;
+
+}
+.desc{
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.sales__image2{
+    margin-top: 4%;
+
+}
+footer{
+   
+    background-color: #FAF1ED;
+    margin-top: 3%;
+    padding: 30px;
+    gap: 10px   ;
+}  
+.selection1{
+    display: flex;
+    
+    margin: 30px;
+    gap: 10px ;
+    justify-content: space-around;
+
+}
+.selection__head p,.selection__head1 p{
+    margin: 15px;
+}
+.sales__image2 img{
+    width: 100%;
+    height: 80%;
+}
+.selection__head2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.selection2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.selectoption{
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+.selection2 p{
+    margin: 15px; ;
+
+}
+.menubar{
+    display: none;
+}
+.user{
+    display:none;
+}
+
+
+@media screen and (max-width:600px) {
+    .select{
+        display: none;
+    }
+    .global,.option{
+        display: none;
+    }
+    .choice{
+        display: flex;
+    
+        
+       
+    }
+    .search{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .search__bar{
+        width: 93%;
+    }
+    .menubar{
+        display: block;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+.user{
+    display: block;
+}
+.selection1,.selection2{
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+    }
+    
+  
+
+
+
+
+
+    
+
+
+
+
+
+
+    
